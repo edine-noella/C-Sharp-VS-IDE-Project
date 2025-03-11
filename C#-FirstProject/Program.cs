@@ -48,8 +48,7 @@ class Program
 
         }
 
-
-
+        CodeAcademy.practice();
 
         
     }
