@@ -5,7 +5,7 @@ public class CodeAcademy
 	public static void practice()
 	{
 
-		Console.WriteLine("This is the Code Academy file");
+        Console.WriteLine(" .-.\n(O O)\n| o |\n|   |\n'~~~'");
 
-	}
+    }
 }
