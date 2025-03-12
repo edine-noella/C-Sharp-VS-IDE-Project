@@ -6,15 +6,16 @@ public class CodeAcademy
 	{
 
         //Console.WriteLine(" .-.\n(O O)\n| o |\n|   |\n'~~~'");
-        // First string variable
-        string firstSentence = "It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.";
-        // Second string variable
-        string firstSpeech = "\"My dear Mr. Bennet\" said his lady to him one day, \"have you heard that Netherfield Park is let at last?\"";
 
-        // Print variable and newline
-        Console.WriteLine(firstSentence);
-        Console.WriteLine("\n");
-        Console.WriteLine(firstSpeech);
+
+        //string interpolation
+        string beginning = "Once upon a time,";
+        string middle = "The kid climbed a tree";
+        string end = "Everyone lived happily ever after.";
+
+        // Interpolate the string and the variables
+        string story = $"{beginning} {middle} {end}";
+        Console.WriteLine(story);
 
     }
 }
