@@ -48,9 +48,11 @@ class Program
 
         //}
 
-        CodeAcademy.practice();
+        //CodeAcademy.practice();
+        CodeAcademy.passwordValidate();
 
-        
+
+
     }
 }
 
