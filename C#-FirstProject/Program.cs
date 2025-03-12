@@ -49,7 +49,8 @@ class Program
         //}
 
         //CodeAcademy.practice();
-        CodeAcademy.passwordValidate();
+        //CodeAcademy.passwordValidate();
+        Console.WriteLine(CodeAcademy.changeToUpperCase("edine noella"));
 
 
 

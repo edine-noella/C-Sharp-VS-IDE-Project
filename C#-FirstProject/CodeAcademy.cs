@@ -28,4 +28,8 @@ public class CodeAcademy
         Console.WriteLine($"The user password is {password}. Its length is {passwordLength} and it contains {passwordCheck} special characters.");
     }
 
+    public static string changeToUpperCase (string word){
+        return word.ToUpper();
+    }
+
 }
