@@ -32,4 +32,27 @@ public class CodeAcademy
         return word.ToUpper();
     }
 
+    public static void checkAcidity(double ph)
+    {
+
+        switch (ph)
+        {
+            case <= 3:
+                Console.WriteLine("Very Acidic");
+                break;
+            case < 7:
+                Console.WriteLine("Acidic");
+                break;
+            case >= 11:
+                Console.WriteLine("Very Basic");
+                break;
+            case > 7:
+                Console.WriteLine("Basic");
+                break;
+            default:
+                Console.WriteLine("Neutral");
+                break;
+        }
+    }
+
 }
