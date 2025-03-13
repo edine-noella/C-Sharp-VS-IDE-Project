@@ -51,7 +51,8 @@ class Program
         //CodeAcademy.practice();
         //CodeAcademy.passwordValidate();
         //Console.WriteLine(CodeAcademy.changeToUpperCase("edine noella"));
-        CodeAcademy.checkAcidity(4.7);
+        //CodeAcademy.checkAcidity(4.7)
+        Console.WriteLine(CodeAcademy.ternaryOperator(12));
 
 
 

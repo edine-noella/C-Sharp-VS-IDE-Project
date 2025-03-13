@@ -55,4 +55,9 @@ public class CodeAcademy
         }
     }
 
+    public static string ternaryOperator(int age)
+    {
+        return (age > 18) ? "You are under age" : "You age a legal adult";
+    }
+
 }
