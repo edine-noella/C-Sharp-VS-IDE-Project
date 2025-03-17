@@ -60,4 +60,20 @@ public class CodeAcademy
         return (age > 18) ? "You are under age" : "You age a legal adult";
     }
 
+    public static void arrayManupilation()
+    {
+
+        string[] summerStrut;
+        summerStrut = new string[] {
+          "Juice", "Missing U", "Raspberry Beret", "New York Groove", "Make Me Feel", "Rebel", "Despacito", "Los Angeles"
+        };
+
+        int[] ratings = { 1, 2, 3, 4, 5, 4, 4, 3 };
+
+        for(int i=0; i<summerStrut.Length; i++)
+        {
+            Console.WriteLine(summerStrut[i]);
+        }
+    }
+
 }
