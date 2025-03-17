@@ -72,8 +72,9 @@ public class CodeAcademy
 
         for(int i=0; i<summerStrut.Length; i++)
         {
-            Console.WriteLine(summerStrut[i]);
+            //Console.WriteLine(summerStrut[i]);
         }
+        Console.WriteLine($"{summerStrut[1]} {ratings[1]}ratings");
     }
 
 }
