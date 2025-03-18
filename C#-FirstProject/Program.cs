@@ -53,8 +53,7 @@ class Program
         //Console.WriteLine(CodeAcademy.changeToUpperCase("edine noella"));
         //CodeAcademy.checkAcidity(4.7)
         //Console.WriteLine(CodeAcademy.ternaryOperator(12));
-        //CodeAcademy.arrayManupilation()
-        CodeAcademy.arrayMethods();
+        CodeAcademy.arrayManupilation();
 
 
 
