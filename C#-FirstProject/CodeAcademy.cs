@@ -90,7 +90,7 @@ public class CodeAcademy
         Console.WriteLine(summerStrut[0]);
         Console.WriteLine(summerStrut[7]);
         Array.Sort(summerStrut);
-        Console.WriteLine("TRYING GITHUB ERRORS");
+        
     }
 
     
