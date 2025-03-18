@@ -54,7 +54,8 @@ class Program
         //CodeAcademy.checkAcidity(4.7)
         //Console.WriteLine(CodeAcademy.ternaryOperator(12));
         //CodeAcademy.arrayManupilation();
-        CodeAcademy.arrayMethods();
+        //CodeAcademy.arrayMethods();
+        CodeAcademy.loopsTry();
 
 
 

@@ -93,6 +93,16 @@ public class CodeAcademy
         
     }
 
+    public static void loopsTry()
+    {
+        string[] todo = { "respond to email", "make wireframe", "program feature", "fix bugs" };
+
+        foreach (string task in todo)
+        {
+            Console.WriteLine($"[] {task}");
+        }
+    }
+
     
 
 }
