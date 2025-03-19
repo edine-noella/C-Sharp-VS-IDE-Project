@@ -103,13 +103,7 @@ public class CodeAcademy
         }
     }
 
-    public static void trying(){
-        int[] arr1 = [];
-        for(int i=0; i<arr1.Length; i++)
-        {
-            Console.WriteLine(arr1[i]);
-        }
-       }
+    
 
     
 

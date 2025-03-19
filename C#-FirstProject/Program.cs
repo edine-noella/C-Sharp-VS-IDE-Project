@@ -56,7 +56,7 @@ class Program
         //CodeAcademy.arrayManupilation();
         //CodeAcademy.arrayMethods();
         //CodeAcademy.loopsTry();
-        CodeAcademy.trying();
+   
 
 
 
