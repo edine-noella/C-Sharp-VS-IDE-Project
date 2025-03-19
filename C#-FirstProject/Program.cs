@@ -55,7 +55,8 @@ class Program
         //Console.WriteLine(CodeAcademy.ternaryOperator(12));
         //CodeAcademy.arrayManupilation();
         //CodeAcademy.arrayMethods();
-        CodeAcademy.loopsTry();
+        //CodeAcademy.loopsTry();
+        CodeAcademy.trying();
 
 
 

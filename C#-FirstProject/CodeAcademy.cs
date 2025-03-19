@@ -28,7 +28,7 @@ public class CodeAcademy
         Console.WriteLine($"The user password is {password}. Its length is {passwordLength} and it contains {passwordCheck} special characters.");
     }
 
-    public static string changeToUpperCase (string word){
+    public static string changeToUpperCase(string word) {
         return word.ToUpper();
     }
 
@@ -70,7 +70,7 @@ public class CodeAcademy
 
         int[] ratings = { 1, 2, 3, 4, 5, 4, 4, 3 };
 
-        for(int i=0; i<summerStrut.Length; i++)
+        for (int i = 0; i < summerStrut.Length; i++)
         {
             //Console.WriteLine(summerStrut[i]);
         }
@@ -90,7 +90,7 @@ public class CodeAcademy
         Console.WriteLine(summerStrut[0]);
         Console.WriteLine(summerStrut[7]);
         Array.Sort(summerStrut);
-        
+
     }
 
     public static void loopsTry()
@@ -102,6 +102,14 @@ public class CodeAcademy
             Console.WriteLine($"[] {task}");
         }
     }
+
+    public static void trying(){
+        int[] arr1 = [];
+        for(int i=0; i<arr1.Length; i++)
+        {
+            Console.WriteLine(arr1[i]);
+        }
+       }
 
     
 
