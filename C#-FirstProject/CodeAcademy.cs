@@ -107,7 +107,9 @@ public class CodeAcademy
     {
         List<int> numbers = new List<int>();
         numbers.Add(10);
-        numbers.AddRange(new int[] { 20, 30, 40 });
+        numbers.AddRange(new int[] { 20, 50, 40 });
+        //numbers.Sort();
+        numbers.Reverse();
 
         foreach (int num in numbers) {
             Console.WriteLine(num);
