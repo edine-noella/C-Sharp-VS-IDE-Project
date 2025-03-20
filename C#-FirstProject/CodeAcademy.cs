@@ -103,6 +103,16 @@ public class CodeAcademy
         }
     }
 
+    public static void tryLists()
+    {
+        List<int> numbers = new List<int>();
+        numbers.Add(10);
+
+        foreach (int num in numbers) {
+            Console.WriteLine(num);
+        }
+    }
+
     
 
     
