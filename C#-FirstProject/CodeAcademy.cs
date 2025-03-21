@@ -116,6 +116,13 @@ public class CodeAcademy
         }
     }
 
+    public static void printSecondName(string name)
+    {
+        int indexOfSpace = name.IndexOf(" ");
+        string secondName = name.Substring(indexOfSpace + 1);
+        Console.WriteLine(secondName);
+    }
+
     
 
     

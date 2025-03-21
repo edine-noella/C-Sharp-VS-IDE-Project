@@ -56,7 +56,8 @@ class Program
         //CodeAcademy.arrayManupilation();
         //CodeAcademy.arrayMethods();
         //CodeAcademy.loopsTry();
-        CodeAcademy.tryLists();
+        //CodeAcademy.tryLists();
+        CodeAcademy.printSecondName("Edine Noella");
 
 
 
