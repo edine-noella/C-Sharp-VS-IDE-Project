@@ -57,7 +57,13 @@ class Program
         //CodeAcademy.arrayMethods();
         //CodeAcademy.loopsTry();
         //CodeAcademy.tryLists();
-        CodeAcademy.printSecondName("Edine Noella");
+        //CodeAcademy.printSecondName("Edine Noella");
+        //Trying.consoleName();
+
+        Person p = new Person();
+        p.Name = "Alice"; 
+        Console.WriteLine(p.Name);
+
 
 
 
