@@ -1,4 +1,5 @@
 ﻿using System;
+using C__FirstProject;
 
 class Program
 {
@@ -60,10 +61,10 @@ class Program
         //CodeAcademy.printSecondName("Edine Noella");
         //Trying.consoleName();
 
-        Person p = new Person();
-        p.Name = "Alice"; 
-        Console.WriteLine(p.Name);
-
+        // Person p = new Person();
+        // p.Name = "Alice"; 
+        // Console.WriteLine(p.Name);
+        Utility.greet("Edine Noella");
 
 
 

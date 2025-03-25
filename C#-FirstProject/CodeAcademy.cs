@@ -122,9 +122,7 @@ public class CodeAcademy
         string secondName = name.Substring(indexOfSpace + 1);
         Console.WriteLine(secondName);
     }
-
     
-
     
 
 }
