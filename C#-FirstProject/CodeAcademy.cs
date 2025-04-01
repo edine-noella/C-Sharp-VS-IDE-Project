@@ -147,8 +147,10 @@ public class CodeAcademy
     public static void replaceA()
     {
         string[] heroes = { "Zoe", "Liam", "Taryn", "Dorian", "Everett", "Marlena" };
-        var underscored = from h in heroes
-            select h.Replace("a","_");
+        // var underscored = from h in heroes
+        //     select h.Replace("a","_");
+        var underscored = heroes.Select(hero => hero.ToUpper());
+        
         foreach (string hero in underscored)
         {
             Console.WriteLine(hero);
@@ -158,9 +160,11 @@ public class CodeAcademy
     public static void containsLetterI()
     {
         string[] heroes = { "Zoe", "Liam", "Taryn", "Dorian", "Everett", "Marlena" };
-        var heroesWithI = from h in heroes
-            where h.Contains("i")
-            select h;
+        // var heroesWithI = from h in heroes
+        //     where h.Contains("i")
+        //     select h;
+
+        var heroesWithI = heroes.Where(hero => hero.Contains("i"));
 
         foreach (string hero in heroesWithI)
         {
