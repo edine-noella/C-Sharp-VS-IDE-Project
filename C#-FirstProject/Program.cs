@@ -64,8 +64,10 @@ class Program
         // Person p = new Person();
         // p.Name = "Alice"; 
         // Console.WriteLine(p.Name);
-        Utility.greet("Edine Noella");
+        // Utility.greet("Edine Noella");
 
+        CodeAcademy course1 = new CodeAcademy("C#", "Learning C#", 20);
+        Console.WriteLine(course1.ToString());
 
 
 

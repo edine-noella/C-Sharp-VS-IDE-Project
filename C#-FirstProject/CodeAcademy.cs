@@ -122,7 +122,22 @@ public class CodeAcademy
         string secondName = name.Substring(indexOfSpace + 1);
         Console.WriteLine(secondName);
     }
-    
-    
+
+    public string courseName;
+    public string courseDescription;
+    public  int courseCredit;
+
+    public override string ToString()
+    {
+        return $" Learning {courseName} {courseDescription} with {courseCredit} credits";
+    }
+
+    public CodeAcademy(string courseName, string courseDescription, int courseCredit)
+    {
+        this.courseName = courseName;
+        this.courseDescription = courseDescription;
+        this.courseCredit = courseCredit;
+    }
+
 
 }
