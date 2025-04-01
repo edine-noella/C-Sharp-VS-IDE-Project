@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Reflection.Metadata.Ecma335;
 using System.Security.Cryptography.X509Certificates;
+using System.Linq;
 
 public class CodeAcademy
 {
@@ -138,6 +139,33 @@ public class CodeAcademy
         this.courseDescription = courseDescription;
         this.courseCredit = courseCredit;
     }
+    
+    
 
+    
+
+    public static void replaceA()
+    {
+        string[] heroes = { "Zoe", "Liam", "Taryn", "Dorian", "Everett", "Marlena" };
+        var underscored = from h in heroes
+            select h.Replace("a","_");
+        foreach (string hero in underscored)
+        {
+            Console.WriteLine(hero);
+        }
+    }
+
+    public static void containsLetterI()
+    {
+        string[] heroes = { "Zoe", "Liam", "Taryn", "Dorian", "Everett", "Marlena" };
+        var heroesWithI = from h in heroes
+            where h.Contains("i")
+            select h;
+
+        foreach (string hero in heroesWithI)
+        {
+            Console.WriteLine(hero);
+        }
+    }
 
 }
